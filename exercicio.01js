@@ -1,0 +1,12 @@
+//1. Crie um array chamado numbers com os valores [10, 20, 30, 40, 50]
+var numbers = [10, 20, 30, 40, 50];
+//2. Use o método .push() para adicionar o número 60 ao final do array e imprima o array atualizado no console
+numbers.push(60);
+console.log("o array foi atualizado:", numbers);
+//3. Utilize o método .pop() para remover o último elemento do array e imprima o resultado no console.
+var removedElement = numbers.pop();
+console.log("elemento removido:", removedElement);
+console.log("array atualizado:", numbers);
+//4. Use o método .indexOf() para encontrar a posição do número 30 e imprima essa posição no console
+var position = numbers.indexOf(30);
+console.log("posição do número é 30:", position);
